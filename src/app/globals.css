@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+.logo-text-border {
+  -webkit-text-stroke: 12px #361b45;
+  paint-order: stroke fill;
+}
+
+.header-text-border {
+  -webkit-text-stroke: 6px #361b45;
+  paint-order: stroke fill;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
