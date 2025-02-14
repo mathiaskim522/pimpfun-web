@@ -264,7 +264,7 @@ export function Leaderboard() {
                 item.rank === 2 && "bg-gradient-to-r from-gray-400 to-gray-500",
                 item.rank === 3 &&
                   "bg-gradient-to-r from-orange-800 to-orange-500",
-                item.rank > 3 && "bg-black/5 text-black",
+                item.rank > 3 && "bg-black/5 !text-black",
               ])}
             >
               <div
