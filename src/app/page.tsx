@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="container mx-auto">
-      <div className="px-4 py-20 grid grid-cols-1 lg:grid-cols-3 grid-rows-3 gap-8 min-h-svh">
+      <div className="px-4 py-20 grid grid-cols-1 auto-rows-auto lg:grid-cols-3 grid-rows-3 gap-8 min-h-svh">
         <div className="bg-purple-900 rounded-2xl lg:row-span-2 relative overflow-hidden">
           <Image
             src={"/hero-background.jpg"}
